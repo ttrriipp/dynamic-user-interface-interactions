@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Dynamic User Interface Interactions</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <section>
-      <div class="drop-down">
+      <div class="drop-down-container">
         <button class="drop-down-toggle">X</button>
         <div class="drop-down-menu">
           <ul>
@@ -17,6 +17,22 @@
             <li class="drop-down-item"><span>Logout</span></li>
           </ul>
         </div>
+      </div>
+    </section>
+    <section>
+      <div class="image-carousel-container">
+        <div class="image"></div>
+        <div class="image"></div>
+        <div class="image"></div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+      </div>
+
+      <div class="dot-container">
+        <a class="dot" data-index="0"></a>
+        <a class="dot" data-index="1"></a>
+        <a class="dot" data-index="2"></a>
       </div>
     </section>
   </body>
